@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+.git/
+.github/
+.claude/
+.agents/
+*.db
+tests/
+docs/
+*.md
+!README.md
+skills-lock.json
+.dockerignore
+Dockerfile
