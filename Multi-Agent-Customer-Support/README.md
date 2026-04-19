@@ -11,12 +11,9 @@ pinned: false
 inspired by: animesh kumar
 ---
 
-# Multi-Agent Customer Support System
+# Multi-Agent Customer Support System using Ollama Mistral
 
 A production-grade, **LangGraph-powered hierarchical multi-agent assistant** for a digital music store. It combines a **Supervisor router**, two specialized **ReAct sub-agents** (music catalog + invoice information), **human-in-the-loop identity verification**, **long-term per-customer memory**, and a **Gradio chat UI** - all backed by a real relational schema (the Chinook sample database).
-
-**Live Demo:** [huggingface.co/spaces/animeshkcm/Multi-Agent-Customer-Support](https://huggingface.co/spaces/animeshkcm/Multi-Agent-Customer-Support)
-
 ---
 
 ## Capstone Framing
@@ -692,7 +689,6 @@ This README's YAML frontmatter is the HF Spaces config. Push the repo to a Gradi
 docker build -t music-support .
 docker run -d \
   -p 7860:7860 \
-  -e OPENAI_API_KEY=sk-... \
   -e MODEL_NAME=gpt-4o-mini \
   --name music-support \
   --restart unless-stopped \
