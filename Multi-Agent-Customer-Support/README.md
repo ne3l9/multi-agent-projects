@@ -1,5 +1,5 @@
 ---
-title: Music Store Multi-Agent Support
+title: Music Store Multi-Agent Support using Ollama Mistral
 emoji: 🎵
 colorFrom: blue
 colorTo: indigo
@@ -8,6 +8,7 @@ sdk_version: 5.29.0
 python_version: "3.12"
 app_file: app.py
 pinned: false
+inspired by - animesh kumar
 ---
 
 # Multi-Agent Customer Support System
@@ -746,5 +747,5 @@ MIT. See [LICENSE](LICENSE).
 ---
 
 <div align="center">
-  <sub>Built and maintained by <b>Animesh Kumar</b> · LangGraph · Gradio · Chinook</sub>
+  <sub>Built and maintained by <b>Neel</b> · LangGraph · Gradio · Chinook</sub>
 </div>
